@@ -1,4 +1,4 @@
-#TitleTrace
+# TitleTrace
 ## PDF Heading Classifier
 
 This project extracts and classifies structural headings (Title, H1, H2, H3) from a PDF using machine learning. It leverages layout, text style, and formatting features to predict heading types and outputs a structured JSON that conforms to the schema defined in sample_dataset/schema/output_schema.json.

@@ -97,11 +97,7 @@ mkdir -p output
 3. *Run the container*
 
 ```
-docker run --rm \
-  -v $(pwd)/input:/app/input \
-  -v $(pwd)/output:/app/output \
-  --network none \
-  pdf-heading-classifier
+docker run --rm \ -v $(pwd)/input:/app/input \ -v $(pwd)/output:/app/output \ --network none \ pdf-heading-classifier
 ```
 
 This will automatically process all PDFs inside /app/input, and generate a corresponding filename.json inside /app/output.

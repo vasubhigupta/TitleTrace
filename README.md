@@ -91,7 +91,7 @@ Create an empty output/ folder (if not present):
 
 ```
 mkdir -p output
-``
+```
 
 
 3. *Run the container*
